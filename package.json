@@ -1,0 +1,27 @@
+{
+  "name": "howe-hub",
+  "version": "0.0.1",
+  "description": "Automation core for the Howe project",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "mqtt": "^2.18.8",
+    "redux": "^4.0.1",
+    "request": "^2.88.0",
+    "rxjs": "^6.3.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/node": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "nodemon": "^1.18.5"
+  }
+}
